@@ -1,0 +1,37 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🛍️ Products</h1>
+
+{% for product in products %}
+    <div class="product">
+        <p><b>{{ product.name }}</b> - ₹{{ product.price }}</p>
+        <a href="/add/{{ product.id }}">Add to Cart</a>
+    </div>
+{% endfor %}
+
+<a href="/cart">🛒 Go to Cart</a>
+
+</body>
+</html>
