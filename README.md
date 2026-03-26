@@ -1,5 +1,9 @@
 # 🛍️ E-commerce Shopping Cart
 
+## 👩‍💻 Author
+
+Developed by Nandana 💻✨
+
 This is a simple web application built using Flask.
 
 ## 📸 Screenshot
