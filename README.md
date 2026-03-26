@@ -2,6 +2,10 @@
 
 This is a simple web application built using Flask.
 
+## 📸 Screenshot
+
+![App Screenshot](screenshot.png)
+
 ## 🔥 Features
 - View products
 - Add to cart
